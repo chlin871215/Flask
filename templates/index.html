@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>chberlin</title>
+</head>
+
+<body>
+    <h1>Home page</h1>
+    {% for x in content %}
+    {% if x == "tim" %}
+    <p>{{x}}</p>
+    {% endif %}
+    {% endfor %}
+
+</body>
+
+</html>
