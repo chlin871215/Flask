@@ -8,7 +8,7 @@
 <body>
     <h1>Home page</h1>
     {% for x in content %}
-    {% if x == "tim" %}
+    {% if x != "tim" %}
     <p>{{x}}</p>
     {% endif %}
     {% endfor %}
